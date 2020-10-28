@@ -143,8 +143,10 @@ header > section > .container > .row > .col-md-5 > p {
 header > section > .container > .row > .col-md-5 > p > a {
   color: white;
 }
+/* header */
 
 
+/* main */
 main > .society {
   background-color: #F3F5F9;
   text-align: center;
@@ -160,6 +162,7 @@ main > .society > h3 {
 main > .society > .container {
   margin-bottom: 20px;
 }
+
 main > .society > .container > .row > .col-lg-2{
   background-position: center;
   background-size: contain;
@@ -167,34 +170,71 @@ main > .society > .container > .row > .col-lg-2{
 }
 main > .society > .container > .row > .col-lg-2:nth-child(1) {
   background-image: url("img/society/docker.svg");
-  height: 100px;
+  height: 80px;
 }
 main > .society > .container > .row > .col-lg-2:nth-child(2) {
   background-image: url("img/society/gitlab.svg");
-  height: 100px;
+  height: 80px;
 }
 main > .society > .container > .row > .col-lg-2:nth-child(3) {
   background-image: url("img/society/slack.svg");
-  height: 100px;
+  height: 80px;
 }
 main > .society > .container > .row > .col-lg-2:nth-child(4) {
   background-image: url("img/society/hashicorp.svg");
-  height: 100px;
+  height: 80px;
 }
 main > .society > .container > .row > .col-lg-2:nth-child(5) {
   background-image: url("img/society/wework.svg");
-  height: 100px;
+  height: 80px;
 }
 main > .society > .container > .row > .col-lg-2:nth-child(6) {
   background-image: url("img/society/splunk.svg");
-  height: 100px;
+  height: 80px;
 }
 
 main > .society > a {
   color: #0069ff;
 }
-/* header */
 
+main > .info > .container > h2 {
+  margin-top: 70px;
+  text-align: center;
+  color: #031b4e;
+  font-size: 2.5em;
+}
+
+main > .info > .container > p {
+  text-align: center;
+  color: #5C6A88;
+}
+
+main > .info > .container > .row > .col-sm-4 > ul {
+  list-style: none;
+  border-left: 2px solid #CCCCCC;
+  color: #8D97AB;
+}
+main > .info > .container > .row > .col-sm-4 > ul > li:first-child {
+  padding-top: 20px;
+}
+main > .info > .container > .row > .col-sm-4 > ul > li {
+  margin-top: 20px;
+}
+main > .info > .container > .row > .col-sm-4 > ul > li:last-child {
+  padding-bottom: 20px;
+}
+main > .info > .container > .row > .col-sm-8 > .col-sm-6 {
+  height: 200px;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+main > .info > .container > .row > .col-sm-8 > .col-sm-6 > h4 {
+  color: #031b4e;
+}
+main > .info > .container > .row > .col-sm-8 > .col-sm-6 > p {
+  color: #5C6A88;
+}
+/* /main */
 
 /* /specifici */
 
