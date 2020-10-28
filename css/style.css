@@ -1,0 +1,61 @@
+/* generici */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+/* /generici */
+
+/* specifici */
+
+/* header */
+header > nav {
+  background-color: white;
+}
+header > nav > .container-fluid {
+  padding: 0 30px;
+}
+
+
+header > nav > .container-fluid > .left {
+  float: left;
+}
+header > nav > .container-fluid > .left > img {
+  height: 30px;
+  margin: 20px 0;
+  vertical-align:middle;
+}
+header > nav > .container-fluid > .left > ul {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  padding-top: 5px;
+  margin-left: 40px;
+}
+header > nav > .container-fluid > .left > ul > li > a {
+  color: #031b4f;
+}
+header > nav > .container-fluid > .left > ul > li > a > span {
+  color: #5b6886;
+}
+
+header > nav > .container-fluid > .right {
+  float: right;
+}
+header > nav > .container-fluid > .right > a {
+  line-height: 75px;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+header > nav > .container-fluid > .right > a:first-child {
+  color: #006AFF;
+  border: 1px solid #006AFF;
+}
+header > nav > .container-fluid > .right > a:last-child {
+  background-color: #006AFF;
+  color: white;
+  margin-left: 15px;
+}
+/* header */
+
+
+/* /specifici */
