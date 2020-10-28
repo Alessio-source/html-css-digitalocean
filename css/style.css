@@ -143,6 +143,56 @@ header > section > .container > .row > .col-md-5 > p {
 header > section > .container > .row > .col-md-5 > p > a {
   color: white;
 }
+
+
+main > .society {
+  background-color: #F3F5F9;
+  text-align: center;
+  padding-bottom: 50px;
+}
+main > .society > h3 {
+  margin: 0;
+  padding-top: 40px;
+  color: #5b6987 !important;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+main > .society > .container {
+  margin-bottom: 20px;
+}
+main > .society > .container > .row > .col-lg-2{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main > .society > .container > .row > .col-lg-2:nth-child(1) {
+  background-image: url("img/society/docker.svg");
+  height: 100px;
+}
+main > .society > .container > .row > .col-lg-2:nth-child(2) {
+  background-image: url("img/society/gitlab.svg");
+  height: 100px;
+}
+main > .society > .container > .row > .col-lg-2:nth-child(3) {
+  background-image: url("img/society/slack.svg");
+  height: 100px;
+}
+main > .society > .container > .row > .col-lg-2:nth-child(4) {
+  background-image: url("img/society/hashicorp.svg");
+  height: 100px;
+}
+main > .society > .container > .row > .col-lg-2:nth-child(5) {
+  background-image: url("img/society/wework.svg");
+  height: 100px;
+}
+main > .society > .container > .row > .col-lg-2:nth-child(6) {
+  background-image: url("img/society/splunk.svg");
+  height: 100px;
+}
+
+main > .society > a {
+  color: #0069ff;
+}
 /* header */
 
 
@@ -162,7 +212,7 @@ header > section > .container > .row > .col-md-5 > p > a {
 }
 /* /ipad pro */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   header > nav > .container-fluid > .left > ul,
   header > nav > .container-fluid > .right > a:nth-child(1),
   header > nav > .container-fluid > .right > a:nth-child(2) {
