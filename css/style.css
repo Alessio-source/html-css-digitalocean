@@ -27,9 +27,9 @@ header > nav > .container-fluid > .left > img {
 header > nav > .container-fluid > .left > ul {
   display: inline-block;
   margin-bottom: 0;
-  vertical-align: middle;
-  padding-top: 5px;
   margin-left: 40px;
+  padding-top: 5px;
+  vertical-align: middle;
 }
 header > nav > .container-fluid > .left > ul > li > a {
   color: #031b4f;
@@ -38,26 +38,110 @@ header > nav > .container-fluid > .left > ul > li > a > span {
   color: #5b6886;
 }
 
+
 header > nav > .container-fluid > .right {
   float: right;
 }
 header > nav > .container-fluid > .right > a {
-  line-height: 75px;
   padding: 8px 20px;
   border-radius: 5px;
+  line-height: 75px;
 }
 header > nav > .container-fluid > .right > a:nth-child(1) {
-  color: #006AFF;
   border: 1px solid #006AFF;
+  color: #006AFF;
 }
 header > nav > .container-fluid > .right > a:nth-child(2) {
+  margin-left: 15px;
   background-color: #006AFF;
   color: white;
-  margin-left: 15px;
 }
 header > nav > .container-fluid > .right > a:nth-child(3) {
-  line-height: 1.5px;
   margin-top: 30px;
+  line-height: 1.5px;
+}
+
+
+
+header > section {
+  margin-top: 70px;
+  min-height: 750px;
+  background-image: url("img/background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+header > section > .container > .row > .col-lg-7 {
+  font-size: 25px;
+}
+header > section > .container > .row > .col-lg-7 > h1 {
+  margin-top: 250px;
+  font-size: 2.5em;
+}
+header > section > .container > .row > .col-lg-7 > p {
+  font-weight: 100;
+}
+
+
+header > section > .container > .row > .col-lg-5 > .scheda {
+  width: calc(100%);
+  background-color: white;
+  min-height: 490px;
+  margin: 150px auto 0 auto;
+  border-radius: 5px;
+  color: #031b4f;
+  text-align: center;
+}
+header > section > .container > .row > .col-lg-5 > .scheda > p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header > section > .container > .row > .col-lg-5 > .scheda > form {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+header > section > .container > .row > .col-lg-5 > .scheda > form > input:not(:last-child) {
+  display: list-item;
+  width: 80%;
+  height: 50px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #E5E8ED;
+  border-radius: 3px;
+}
+header > section > .container > .row > .col-lg-5 > .scheda > form > input:last-child {
+  width: 80%;
+  padding: 20px 10px;
+  font-weight: 500;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #006aff;
+  color: white;
+}
+
+header > section > .container > .row > .col-lg-5 > .scheda > a {
+  color: #006aff;
+  border: 1px solid #006aff;
+  border-radius: 3px;
+}
+header > section > .container > .row > .col-lg-5 > .scheda > a:first-of-type {
+  padding: 15px 15%;
+}
+header > section > .container > .row > .col-lg-5 > .scheda > a:last-of-type {
+  padding: 15px 15px;
+}
+header > section > .container > .row > .col-lg-5 > p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 8px;
+}
+header > section > .container > .row > .col-lg-5 > p > a {
+  color: white;
 }
 /* header */
 
