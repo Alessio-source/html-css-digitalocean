@@ -484,4 +484,8 @@ header > section > .container > .row > .col-md-5 > .scheda > a:hover > span {
 header > section > .container > .row > .col-md-5 > p > a:hover {
   border-bottom: 1px dotted white;
 }
+
+main > .society > a:hover {
+  color: #1633FF;
+}
 /* /animazioni */
