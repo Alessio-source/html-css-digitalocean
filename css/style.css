@@ -486,7 +486,8 @@ header > section > .container > .row > .col-md-5 > p > a:hover {
 }
 
 main > .society > a:hover,
-main > .features > .container > .row > .col-sm-4 > a:hover {
+main > .features > .container > .row > .col-sm-4 > a:hover,
+main > .speedtest > .container > .row > .col-lg-6 > ul > li > a:hover {
   color: #1633FF;
 }
 
