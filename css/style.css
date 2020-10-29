@@ -129,6 +129,7 @@ header > section > .container > .row > .col-md-5 > .scheda > form > input:last-c
   border-radius: 5px;
   background-color: #006aff;
   color: white;
+  transition: background 0.4s;
 }
 
 header > section > .container > .row > .col-md-5 > .scheda > a {
@@ -469,5 +470,18 @@ header > nav > .container-fluid > .left > ul > li > a:hover {
 header > nav > .container-fluid > .right > a:nth-child(1):hover {
   background-color: #0069ff;
   color: white;
+}
+
+header > section > .container > .row > .col-md-5 > .scheda > form > input:last-child:hover {
+  background-color: #1633FF;
+}
+header > section > .container > .row > .col-md-5 > .scheda > a:hover {
+  border: 1px solid black;
+}
+header > section > .container > .row > .col-md-5 > .scheda > a:hover > span {
+  color: black;
+}
+header > section > .container > .row > .col-md-5 > p > a:hover {
+  border-bottom: 1px dotted white;
 }
 /* /animazioni */
