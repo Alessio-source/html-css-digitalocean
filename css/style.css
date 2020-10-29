@@ -322,6 +322,33 @@ main > .speedtest > .container > .row > .col-lg-6 > ul > li > a {
   color: #38D5D1;
   margin-right: 15px;
 }
+
+
+main > .slider:last-child > .slider-box > .box {
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  width: 620px;
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+}
+main > .slider:last-child > .slider-box > .box > img {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+main > .slider:last-child > .slider-box > .box > p:first-of-type {
+  font-size: 1.5em;
+  color: #5C6A88;
+}
+main > .slider:last-child > .slider-box > .box > strong,
+main > .slider:last-child > .slider-box > .box > p:last-of-type {
+  color: #031b4e;
+}
+main > .slider:last-child > .slider-box > .box > a {
+  color: #0069ff;
+}
 /* /main */
 
 /* /specifici */
@@ -366,6 +393,10 @@ main > .speedtest > .container > .row > .col-lg-6 > ul > li > a {
 
   main > .speedtest > .container > .row > .col-lg-6:not(:last-child) > ul {
     margin-bottom: 40px;
+  }
+
+  main > .slider:last-child > .slider-box > .box {
+    width: 300px;
   }
 }
 /* smartphone */
