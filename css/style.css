@@ -368,6 +368,43 @@ main > .get > a {
   padding: 15px 40px;
   border-radius: 5px;
 }
+
+
+
+footer {
+  background-color: #031C4E;
+  color: #8D97AB;
+}
+footer > .container > .row > .col-lg-4 > img {
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+footer > .container > .row > .col-lg-4 > p:nth-child(2) {
+  margin-bottom: 0;
+}
+footer > .container > .row > .col-lg-4 > p:nth-child(3) {
+  color: #5C6A88;
+}
+footer > .container > .row > .col-lg-4 > ul {
+  font-size: 25px;
+}
+footer > .container > .row > .col-lg-4 > ul a {
+  color: #8D97AB;
+}
+
+footer > .container > .row > .col-lg-2 > ul {
+  list-style: none;
+  margin-top: 80px;
+}
+footer > .container > .row > .col-lg-2 > ul h4 {
+  color: white;
+}
+footer > .container > .row > .col-lg-2 > ul > li {
+  margin-top: 10px;
+}
+footer > .container > .row > .col-lg-2 > ul > li > a {
+  color: #8D97AB;
+}
 /* /main */
 
 /* /specifici */
@@ -414,7 +451,7 @@ main > .get > a {
     margin-bottom: 40px;
   }
 
-  main > .slider:last-child > .slider-box > .box {
+  main > .slider > .slider-box > .box {
     width: 300px;
   }
 }
