@@ -3,6 +3,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
+
+main h2 {
+  padding-top: 70px;
+  color: #031b4e;
+  font-size: 2.5em;
+  text-align: center;
+}
 /* /generici */
 
 /* specifici */
@@ -197,13 +204,6 @@ main > .society > a {
   color: #0069ff;
 }
 
-main > .info > .container > h2 {
-  margin-top: 70px;
-  text-align: center;
-  color: #031b4e;
-  font-size: 2.5em;
-}
-
 main > .info > .container > p {
   text-align: center;
   color: #5C6A88;
@@ -240,11 +240,6 @@ main > .slider {
   background-color: #F3F5F9;
   padding-bottom: 50px;
 }
-main > .slider > h2 {
-  padding-top: 70px;
-  color: #031b4e;
-  font-size: 2.5em;
-}
 main > .slider > p {
   color: #5C6A88;
 }
@@ -274,6 +269,23 @@ main > .slider > .slider-box > ul > li {
   height: 12px;
   border: 1px solid #0069ff;
   border-radius: 50%;
+}
+
+
+main > .features {
+  padding-bottom: 50px;
+}
+main > .features > .container > .row > .col-sm-4 {
+  margin-top: 40px;
+}
+main > .features > .container > .row > .col-sm-4 > h4 {
+  color: #031b4e;
+}
+main > .features > .container > .row > .col-sm-4 > p {
+  color: #5C6A88;
+}
+main > .features > .container > .row > .col-sm-4 > a {
+  color: #0069ff;
 }
 /* /main */
 
