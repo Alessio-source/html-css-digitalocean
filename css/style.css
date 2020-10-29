@@ -57,6 +57,7 @@ header > nav > .container-fluid > .right > a {
 header > nav > .container-fluid > .right > a:nth-child(1) {
   border: 1px solid #006AFF;
   color: #006AFF;
+  transition: all 0.4s;
 }
 header > nav > .container-fluid > .right > a:nth-child(2) {
   margin-left: 15px;
@@ -456,3 +457,17 @@ footer > .container > .row > .col-lg-2 > ul > li > a {
   }
 }
 /* smartphone */
+
+/* animazioni */
+a:hover {
+  text-decoration: none;
+}
+
+header > nav > .container-fluid > .left > ul > li > a:hover {
+  color: #0069ff;
+}
+header > nav > .container-fluid > .right > a:nth-child(1):hover {
+  background-color: #0069ff;
+  color: white;
+}
+/* /animazioni */
