@@ -485,7 +485,9 @@ header > section > .container > .row > .col-md-5 > p > a:hover {
   border-bottom: 1px dotted white;
 }
 
-main > .society > a:hover {
+main > .society > a:hover,
+main > .features > .container > .row > .col-sm-4 > a:hover {
   color: #1633FF;
 }
+
 /* /animazioni */
