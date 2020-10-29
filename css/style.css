@@ -369,6 +369,7 @@ main > .get > a {
   background-color: white;
   padding: 15px 40px;
   border-radius: 5px;
+  transition: background 0.4s;
 }
 
 
@@ -490,6 +491,10 @@ main > .features > .container > .row > .col-sm-4 > a:hover,
 main > .speedtest > .container > .row > .col-lg-6 > ul > li > a:hover,
 main > .slider > .slider-box > .box > a:hover {
   color: #1633FF;
+}
+
+main > .get > a:hover {
+  background-color: #CFD4E4;
 }
 
 footer > .container > .row > .col-lg-4 > ul > li > a:hover,
