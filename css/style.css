@@ -234,6 +234,47 @@ main > .info > .container > .row > .col-sm-8 > .col-sm-6 > h4 {
 main > .info > .container > .row > .col-sm-8 > .col-sm-6 > p {
   color: #5C6A88;
 }
+
+main > .slider {
+  text-align: center;
+  background-color: #F3F5F9;
+  padding-bottom: 50px;
+}
+main > .slider > h2 {
+  padding-top: 70px;
+  color: #031b4e;
+  font-size: 2.5em;
+}
+main > .slider > p {
+  color: #5C6A88;
+}
+main > .slider > .slider-box {
+  margin-top: 50px;
+}
+main > .slider > .slider-box > img {
+  height: 450px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+main > .slider > .slider-box > .fas {
+  font-size: 60px;
+  margin: auto 20px;
+  vertical-align: middle;
+  color: #5C6A88;
+}
+main > .slider > .slider-box > p {
+  color: #5C6A88;
+  margin: 20px auto;
+}
+main > .slider > .slider-box > ul > li:first-of-type {
+  background-color: #0069ff;
+}
+main > .slider > .slider-box > ul > li {
+  width: 10px;
+  height: 12px;
+  border: 1px solid #0069ff;
+  border-radius: 50%;
+}
 /* /main */
 
 /* /specifici */
@@ -252,6 +293,7 @@ main > .info > .container > .row > .col-sm-8 > .col-sm-6 > p {
 }
 /* /ipad pro */
 
+/* smartphone */
 @media screen and (max-width: 767px) {
   header > nav > .container-fluid > .left > ul,
   header > nav > .container-fluid > .right > a:nth-child(1),
@@ -266,4 +308,9 @@ main > .info > .container > .row > .col-sm-8 > .col-sm-6 > p {
   header > section > .container > .row > .col-md-5 > .scheda > a:first-of-type {
     padding: 15px 40px;
   }
+
+  main > .slider > .slider-box > img {
+    height: 200px;
+  }
 }
+/* smartphone */
