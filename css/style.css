@@ -401,7 +401,7 @@ footer > .container > .row > .col-lg-2 > ul > li {
 /* /specifici */
 
 /* ipad pro */
-@media screen and (max-width: 1043px) and (min-width: 768px) {
+@media screen and (max-width: 1199px) and (min-width: 768px) {
   header > nav > .container-fluid > .left > ul,
   header > nav > .container-fluid > .right > ul {
     display: none;
