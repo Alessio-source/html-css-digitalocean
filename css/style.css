@@ -468,17 +468,11 @@ header > nav > .container-fluid > .right > ul > li:last-child > a:hover {
   color: white;
 }
 
-header > section > .container > .row > .col-md-5 > .scheda > form > input:last-child:hover {
+header > section > .container > .row > .col-md-5 > .scheda > form > input:nth-child(4):hover {
   background-color: #1633FF;
 }
-header > section > .container > .row > .col-md-5 > .scheda > a:hover {
-  border: 1px solid black;
-}
-header > section > .container > .row > .col-md-5 > .scheda > a:hover > span {
-  color: black;
-}
-header > section > .container > .row > .col-md-5 > p > a:hover {
-  border-bottom: 1px dotted white;
+header > section > .container > .row > .col-md-5 > .scheda > p > a:hover {
+  border-bottom: 1px dotted black;
 }
 
 main > .society > a:hover,
